@@ -1,8 +1,3 @@
-// Helper paling awal
-function reverse(s) {
-  return s.split("").reverse().join("");
-}
-
 import { connect } from "cloudflare:sockets";
 // import { createHash, createDecipheriv } from "node:crypto";
 // import { Buffer } from "node:buffer";
