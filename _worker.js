@@ -2,6 +2,11 @@ import { connect } from "cloudflare:sockets";
 // import { createHash, createDecipheriv } from "node:crypto";
 // import { Buffer } from "node:buffer";
 
+// Helper paling awal
+function reverse(s) {
+  return s.split("").reverse().join("");
+}
+
 // Variables
 const rootDomain = "kurniaonelove.workers.dev"; // Ganti dengan domain utama kalian
 const serviceName = "virx"; // Ganti dengan nama workers kalian
