@@ -3,8 +3,8 @@ import { connect } from "cloudflare:sockets";
 // import { Buffer } from "node:buffer";
 
 // Variables
-const rootDomain = "aurorasticker.space"; // Ganti dengan domain utama kalian
-const serviceName = "vpnx"; // Ganti dengan nama workers kalian
+const rootDomain = "kurniaonelove.workers.dev"; // Ganti dengan domain utama kalian
+const serviceName = "virx"; // Ganti dengan nama workers kalian
 const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
