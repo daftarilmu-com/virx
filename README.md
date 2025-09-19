@@ -1,4 +1,4 @@
-# Welcome to Nautica
+# Welcome to DAFTARILMU.COM
 
 Sebuah repository serverless tunnel studi kasus Indonesia
 
@@ -48,51 +48,46 @@ Kode ini masih perlu banyak perbaikan, jadi silahkan berkontribusi dan berikan P
 
 # Cara Deploy
 
-## Instant
-
-Klik tombol di bawah  
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/daftarilmu-com/vipz)
-
 ## Manual
 
 1. Buat akun cloudflare
-2. Buat worker
-3. Copy kode dari `_worker.js` ke editor cloudflare worker
-4. (Optional) Masukkan link daftar proxy kalian ke dalam environemnt variable `PROXY_BANK_URL`
-5. (Optional) Masukkan link target reverse proxy ke environment variable `REVERSE_PROXY_TARGET`
-6. Deploy
-7. Buka `https://DOMAIN_WORKER_KALIAN/sub`
+2. Buat worker pilih [hello world] deploy
+3. Klik EDITOR
+4. Copy kode dari `_worker.js` ke editor cloudflare worker
+5. GANTI SEMUA DENGAN PUNYA MU:
+6. const rootDomain = "dediwebsx.workers.dev"; 
+const serviceName = "pro"; 
+const apiKey = "DOJac7cindcoo_xB1N5Q9tjB3NSbyWlHEPAiKOr"; 
+const apiEmail = "dediwebx@gmail.com"; 
+const accountID = "b4fcd4d07f838466cbbc9d9502604a"; 
+const zoneID = "083ac8642a453e8fe1c02347a065fc"; 
+7. (Optional) Masukkan link daftar proxy kalian ke dalam environemnt variable `PROXY_BANK_URL`
+8. (Optional) Masukkan link target reverse proxy ke environment variable `REVERSE_PROXY_TARGET`
+9. Deploy
+10. Buka `https://DOMAIN_WORKER_KALIAN/sub`
 
-- Contoh daftar proxy [proxyList.txt](https://raw.githubusercontent.com/dickymuliafiqri/Nautica/refs/heads/main/proxyList.txt)
-- Contoh reverse proxy [example.com](https://example.com)
+
+
 
 ## Cara Aktivasi API
 
-Salah satu fungsi API adalah agar kalian bisa melihat dan menambahkan subdomain wildcards ke workers.
-
 Berikut cara aktivasinya:
+1. Buka dan login cloudflare
+2. Buka Manage Account dan pilih Account API tokens
+3. Create Token
+4. pilih use template > Edit Cloudflare Workers
+5. Zone Resources kemudian pilih > include > all zone > pilih email mu
+6. Continue summary
+7. Done, copy Api Token 
 
-1. Masuk ke halaman editor workers yang sudah kalian buat
-2. Isi `variable` dari baris ke 4-9 sesuai dengan key yang kalian miliki
-3. Deploy
 
-### Aktivasi Wildcard (Custom Domain)
 
-1. Selesaikan langkah [Aktivasi API](#cara-aktivasi-api)
-2. Isi variable `rootDomain` dengan domain utama kalian
-   - Contoh: Domain workers `nautica.foolvpn.me`, berarti domain utamanya adalah `foolvpn.me`
-3. Isi variable `serviceName` dengan nama workers kalian
-   - Contoh: Domain workers `nautica.foolvpn.me`, berarti nama workersnya adalah `nautica`
-4. Buat custom domain di pengaturan workers dengan kombinasi `serviceName`.`rootDomain`
-   - Contoh: `nautica.foolvpn.me`
+
+
 
 # Endpoint
 
-- `/` -> Halaman utama reverse proxy
-- `/sub/:page` -> Halaman sub/list akun
-- `/api/v1/sub` -> Subscription link, [Queries](#fitur)
+
 
 # Footnote
 
-- Hal aneh lain yang saya kerjakan [FoolVPN](https://t.me/foolvpn)
-- Tanya-tanya -> [Telegram](https://t.me/d_fordlalatina)
