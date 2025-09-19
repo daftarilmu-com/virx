@@ -78,7 +78,16 @@ Berikut cara aktivasinya:
 4. pilih use template > Edit Cloudflare Workers
 5. Zone Resources kemudian pilih > include > all zone > pilih email mu
 6. Continue summary
-7. Done, copy Api Token 
+7. Done, copy Api Token
+
+
+## Edit atau tambah proxy
+
+Ganti dengan url github kamu: 
+const KV_PRX_URL = "https://raw.githubusercontent.com/daftarilmu-com/virx/refs/heads/main/kvProxyList.json";
+const PRX_BANK_URL = "https://raw.githubusercontent.com/daftarilmu-com/virx/heads/main/proxyList.txt";
+
+
 
 
 
