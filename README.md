@@ -102,5 +102,5 @@ const PRX_BANK_URL = "https://raw.githubusercontent.com/daftarilmu-com/virx/head
 
 # Footnote
 
-[Contact] (https://daftarilmu.com/vmess-premium-30-day)
+[Contact](https://daftarilmu.com/vmess-premium-30-day)
 
