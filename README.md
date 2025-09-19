@@ -84,7 +84,9 @@ Berikut cara aktivasinya:
 ## Edit atau tambah proxy
 
 Ganti dengan url github kamu: 
+
 const KV_PRX_URL = "https://raw.githubusercontent.com/daftarilmu-com/virx/refs/heads/main/kvProxyList.json";
+
 const PRX_BANK_URL = "https://raw.githubusercontent.com/daftarilmu-com/virx/heads/main/proxyList.txt";
 
 
