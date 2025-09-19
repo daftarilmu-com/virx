@@ -55,16 +55,16 @@ Kode ini masih perlu banyak perbaikan, jadi silahkan berkontribusi dan berikan P
 3. Klik EDITOR
 4. Copy kode dari `_worker.js` ke editor cloudflare worker
 5. GANTI SEMUA DENGAN PUNYA MU:
-6. > const rootDomain = "dediwebsx.workers.dev"; 
- > const serviceName = "pro"; 
- > const apiKey = "DOJac7cindcoo_xB1N5Q9tjB3NSbyWlHEPAiKOr"; 
- > const apiEmail = "dediwebzx1@gmail.com"; 
- > const accountID = "b4fcd4d07f838466cbbc9d9502604a"; 
- > const zoneID = "083ac8642a453e8fe1c02347a065fc"; 
-7. (Optional) Masukkan link daftar proxy kalian ke dalam environemnt variable `PROXY_BANK_URL`
-8. (Optional) Masukkan link target reverse proxy ke environment variable `REVERSE_PROXY_TARGET`
-9. Deploy
-10. Buka `https://DOMAIN_WORKER_KALIAN/sub`
+6. const rootDomain = "dediwebsx.workers.dev";
+7. const serviceName = "pro";
+8. const apiKey = "DOJac7cindcoo_xB1N5Q9tjB3NSbyWlHEPAiKOr";
+9. const apiEmail = "dediwebzx1@gmail.com";
+10. const accountID = "b4fcd4d07f838466cbbc9d9502604a";
+11. const zoneID = "083ac8642a453e8fe1c02347a065fc"; 
+12. (Optional) Masukkan link daftar proxy kalian ke dalam environemnt variable `PROXY_BANK_URL`
+13. (Optional) Masukkan link target reverse proxy ke environment variable `REVERSE_PROXY_TARGET`
+14. Deploy
+15. Buka `https://DOMAIN_WORKER_KALIAN/sub`
 
 
 
