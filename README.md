@@ -58,7 +58,7 @@ Kode ini masih perlu banyak perbaikan, jadi silahkan berkontribusi dan berikan P
 6. const rootDomain = "dediwebsx.workers.dev"; 
 const serviceName = "pro"; 
 const apiKey = "DOJac7cindcoo_xB1N5Q9tjB3NSbyWlHEPAiKOr"; 
-const apiEmail = "dediwebx@gmail.com"; 
+const apiEmail = "dediwebzx1@gmail.com"; 
 const accountID = "b4fcd4d07f838466cbbc9d9502604a"; 
 const zoneID = "083ac8642a453e8fe1c02347a065fc"; 
 7. (Optional) Masukkan link daftar proxy kalian ke dalam environemnt variable `PROXY_BANK_URL`
@@ -90,4 +90,6 @@ Berikut cara aktivasinya:
 [Demo Cloudflare Workers](https://demo.kurniaonelove.workers.dev/)
 
 # Footnote
+
+[Contact] (https://daftarilmu.com/vmess-premium-30-day)
 
