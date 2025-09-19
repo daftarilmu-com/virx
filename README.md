@@ -87,7 +87,7 @@ Berikut cara aktivasinya:
 
 # DEMO
 
-[![Deploy to Cloudflare Workers]](https://demo.kurniaonelove.workers.dev/)
+[Demo Cloudflare Workers](https://demo.kurniaonelove.workers.dev/)
 
 # Footnote
 
